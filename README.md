@@ -103,6 +103,8 @@ Resultado:
   "credit_note_number": "F001-10000001"
 }
 
+<img width="1129" height="421" alt="image" src="https://github.com/user-attachments/assets/74d5b5a8-8ab0-449e-91bd-1ef666fc956f" />
+
 ---
 
 ### Caso <= 7 días
@@ -115,6 +117,7 @@ Resultado:
 {
   "document_status": "VOIDED"
 }
+<img width="1129" height="421" alt="image" src="https://github.com/user-attachments/assets/40eba63d-646a-4762-ac49-cec5b5773008" />
 
 ---
 
