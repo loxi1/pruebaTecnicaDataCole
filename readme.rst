@@ -1,6 +1,3 @@
-si tengo todo esto como lo combiertes a *.md
-Evidencias de Pruebas
-
 EXPLAIN, Resultados y Casos Límite
 Proyecto: Examen Técnico Senior – Datacole
 Motor: MariaDB 10.3
