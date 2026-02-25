@@ -1,0 +1,16 @@
+TYPE=VIEW
+query=select `d`.`id` AS `id`,`d`.`doc_type` AS `doc_type`,concat(`d`.`serie`,\'-\',lpad(`d`.`number`,8,\'0\')) AS `doc_number`,`d`.`issue_date` AS `issue_date`,`d`.`total` AS `total`,`d`.`status` AS `status` from `datacole`.`fe_document` `d`
+md5=b3cdf3bcf86e27b07a86675fe6fc0562
+updatable=1
+algorithm=0
+definer_user=datacole
+definer_host=%
+suid=2
+with_check_option=0
+timestamp=0001771996226352940
+create-version=2
+source=SELECT\n  d.id,\n  d.doc_type,\n  CONCAT(d.serie,\'-\',LPAD(d.number,8,\'0\')) AS doc_number,\n  d.issue_date,\n  d.total,\n  d.status\nFROM fe_document d
+client_cs_name=utf8
+connection_cl_name=utf8_general_ci
+view_body_utf8=select `d`.`id` AS `id`,`d`.`doc_type` AS `doc_type`,concat(`d`.`serie`,\'-\',lpad(`d`.`number`,8,\'0\')) AS `doc_number`,`d`.`issue_date` AS `issue_date`,`d`.`total` AS `total`,`d`.`status` AS `status` from `datacole`.`fe_document` `d`
+mariadb-version=100339
